@@ -1,4 +1,4 @@
-**Course Work – Audio Signal Processing & Analysis**
+**Course Work – Audio Signal Processing & Analysis** /n
 This project contains Python-based coursework focused on audio signal analysis and visualization. It includes code to process .wav audio files, perform transformations such as the Fast Fourier Transform (FFT), apply filtering techniques, and visualize waveforms using plots. Interactive audio playback is also supported for exploring sound characteristics.
 
 
