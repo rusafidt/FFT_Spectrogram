@@ -1,46 +1,34 @@
-**Course Work – Audio Signal Processing & Analysis** 
+# Course Work – Audio Signal Processing & Analysis
 
-This project contains Python-based coursework focused on audio signal analysis and visualization. It includes code to process .wav audio files, perform transformations such as the Fast Fourier Transform (FFT), apply filtering techniques, and visualize waveforms using plots. Interactive audio playback is also supported for exploring sound characteristics.
+This project contains Python-based coursework focused on audio signal analysis and visualization.  
+It includes code to process `.wav` audio files, perform transformations like Fast Fourier Transform (FFT), apply filtering techniques, and visualize waveforms using plots.  
+Interactive audio playback is supported for exploring sound characteristics.
 
+---
 
-🔍 Features:
-📈 - Waveform Visualization: Plot time-domain representations of audio signals.
+## 🔍 Features
 
-⚙️ - FFT Analysis: Convert signals to the frequency domain using FFT and visualize spectral content.
+- 📈 **Waveform Visualization**: Plot time-domain representations of audio signals.
+- ⚙️ **FFT Analysis**: Convert signals to the frequency domain using FFT and visualize spectral content.
+- 🎚️ **Filtering**: Apply signal processing filters to isolate or remove frequencies.
+- 🔁 **Inverse Transforms**: Reconstruct time-domain signals from processed frequency data.
+- 🔊 **Audio Playback**: Play audio within a Jupyter Notebook for inspection and comparison.
 
-🎚️ - Filtering: Apply signal processing filters to isolate or remove frequencies.
+---
 
-🔁 - Inverse Transforms: Reconstruct time-domain signals from processed frequency data.
+## 📁 Contents
 
-🔊 - Audio Playback: Play audio within a Jupyter Notebook for inspection and comparison.
+- Python code cells for reading, transforming, and visualizing audio data.
+- Plots: Time-domain and frequency-domain visualizations.
+- WAV file handling: Read and convert audio files into arrays for analysis.
+- Signal transformations: FFT, iFFT, and basic filtering using `scipy.signal`.
+- Notebook export: Provided as `.html` for easy sharing or viewing outside Jupyter.
 
-📁 - Contents
-Python code cells: For reading, transforming, and visualizing audio data.
+---
 
-Plots: Time-domain and frequency-domain visualizations.
+## 🛠️ Requirements
 
-WAV file handling: Reading audio files and converting them into arrays for analysis.
+To run this project in a virtual environment, install the following:
 
-Signal transformations: Including FFT, iFFT, and basic filtering with scipy.signal.
-
-Notebook export: Provided as an .html file for easy sharing or viewing outside of Jupyter.
-
-🛠️ Requirements
-To run this project in a virtual environment:
-
-bash
-Copy
-Edit
+```bash
 pip install numpy pandas matplotlib scipy seaborn ipython
-
-
-🧪 Use Case
-  --> Ideal for students or anyone learning:
-  
-  --> Signal processing
-  
-  --> Audio analysis
-  
-  --> Scientific plotting in Python
-  
-  --> Applying mathematical transforms in real-world contexts
